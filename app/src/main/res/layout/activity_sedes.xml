@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aulasamigas.proyectofinal.Sedes">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="371dp"
+        android:layout_height="195dp"
+        app:srcCompat="@drawable/principal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:backgroundTint="?attr/colorPrimary"
+        android:layout_marginTop="-23dp" />
+
+    <RadioGroup
+        android:id="@+id/sedes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="249dp"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:backgroundTint="?attr/colorPrimary">
+
+        <RadioButton
+            android:id="@+id/Armenia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Armenia"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="365dp"
+            tools:text="Armenia" />
+
+        <RadioButton
+            android:id="@+id/Pereira"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pereira"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="320dp"
+            tools:text="Pereira" />
+
+        <RadioButton
+            android:id="@+id/Manizales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Manizales"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="97dp"
+            tools:text="Manizales" />
+
+
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>

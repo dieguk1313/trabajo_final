@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aulasamigas.proyectofinal.Uniremington">
+
+
+    <RadioGroup
+        android:id="@+id/uniremington"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="226dp"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:backgroundTint="?attr/colorPrimary">
+
+        <RadioButton
+            android:id="@+id/Mision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Misión Visión"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="365dp"
+            tools:text="Misión Visión" />
+
+        <RadioButton
+            android:id="@+id/Valores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Valores Institucionales"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="320dp"
+            tools:text="Valores Institucionales" />
+
+        <RadioButton
+            android:id="@+id/Lineamientos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Lineamientos Académicos"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="97dp"
+            tools:text="Lineamientos Académicos" />
+
+        <RadioButton
+            android:id="@+id/Academico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Calendario Académico"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="143dp"
+            tools:text="Calendario Académico" />
+
+        <RadioButton
+            android:id="@+id/Reglamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Reglamento Estudiantil"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="183dp"
+            tools:text="Reglamento Estudiantil" />
+
+        <RadioButton
+            android:id="@+id/Directorio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Directorio Administrativo"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="226dp"
+            tools:text="Directorio Administrativo" />
+
+        <RadioButton
+            android:id="@+id/Donde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="¿Donde Estamos?"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="278dp"
+            tools:text="¿Donde Estamos?" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="378dp"
+        android:layout_height="208dp"
+        app:srcCompat="@drawable/principal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:backgroundTint="?attr/colorPrimary"
+        android:layout_marginTop="0dp"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>

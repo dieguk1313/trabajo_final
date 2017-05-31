@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aulasamigas.proyectofinal.Admisiones">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="378dp"
+        android:layout_height="208dp"
+        app:srcCompat="@drawable/principal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:backgroundTint="?attr/colorPrimary"
+        android:layout_marginTop="0dp"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <RadioGroup
+        android:id="@+id/admisiones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="247dp"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:backgroundTint="?attr/colorPrimary">
+
+        <RadioButton
+            android:id="@+id/Prerequisitos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pre-Inscripción"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="365dp"
+            tools:text="Pre-Inscripción" />
+
+        <RadioButton
+            android:id="@+id/Requisitos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Requisitos de Inscripción"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="320dp"
+            tools:text="Requisitos de Inscripción" />
+
+        <RadioButton
+            android:id="@+id/Homologacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Homologaciones"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="97dp"
+            tools:text="Homologaciones" />
+
+        <RadioButton
+            android:id="@+id/Pagos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Formas de Pago"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="143dp"
+            tools:text="Formas de Pago" />
+
+        <RadioButton
+            android:id="@+id/Convenios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Convenios y Descuentos"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="183dp"
+            tools:text="Convenios y Descuentos" />
+
+
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>

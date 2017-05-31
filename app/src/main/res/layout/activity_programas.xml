@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aulasamigas.proyectofinal.Programas">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="378dp"
+        android:layout_height="208dp"
+        app:srcCompat="@drawable/principal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:backgroundTint="?attr/colorPrimary"
+        android:layout_marginTop="0dp"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <RadioGroup
+        android:id="@+id/programas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="268dp"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:backgroundTint="?attr/colorPrimary">
+
+        <RadioButton
+            android:id="@+id/Especializaciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Especializaciones"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="365dp"
+            tools:text="Especializaciones" />
+
+        <RadioButton
+            android:id="@+id/Pregrados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pregrados"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="97dp"
+            tools:text="Pregrados" />
+
+        <RadioButton
+            android:id="@+id/Tecnologia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tecnologías"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="320dp"
+            tools:text="Tecnologías" />
+
+        <RadioButton
+            android:id="@+id/Extencion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Extención"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="143dp"
+            tools:text="Extención" />
+
+        <RadioButton
+            android:id="@+id/GrupoEstudio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Grupos de Estudio"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="183dp"
+            tools:text="Grupos de Estudio" />
+
+
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aulasamigas.proyectofinal.Plataformas">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="378dp"
+        android:layout_height="208dp"
+        app:srcCompat="@drawable/principal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:backgroundTint="?attr/colorPrimary"
+        android:layout_marginTop="0dp"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <RadioGroup
+        android:id="@+id/plataformas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="224dp"
+        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:backgroundTint="?attr/colorPrimary">
+
+        <RadioButton
+            android:id="@+id/Moodle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Moodle"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="365dp"
+            tools:text="Moodle" />
+
+        <RadioButton
+            android:id="@+id/Q10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Q10"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="320dp"
+            tools:text="Q10" />
+
+        <RadioButton
+            android:id="@+id/Recibo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Recibo de Matrícula"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="97dp"
+            tools:text="Recibo de Matrícula" />
+
+        <RadioButton
+            android:id="@+id/Documentos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Documentos Nuevos"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="143dp"
+            tools:text="Documentos Nuevos" />
+
+        <RadioButton
+            android:id="@+id/Reserva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Reserva de Equipos"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="183dp"
+            tools:text="Reserva de Equipos" />
+
+        <RadioButton
+            android:id="@+id/Biblioteca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Biblioteca Uniremington"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="226dp"
+            tools:text="Biblioteca Uniremington" />
+
+        <RadioButton
+            android:id="@+id/Pqrs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Módulo de Atención PQRS"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="278dp"
+            tools:text="Módulo de Atención PQRS" />
+
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>
