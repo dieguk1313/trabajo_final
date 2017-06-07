@@ -4,17 +4,23 @@ import android.content.Intent;
 import android.support.annotation.IdRes;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.RadioGroup;
 
-public class Uniremington extends AppCompatActivity {
+public class Uniremington extends AppCompatActivity implements View.OnClickListener {
 
     RadioGroup radioGroup;
+    Button btn;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_uniremington);
+
+        btn = (Button)findViewById(R.id.buttonunireming);
+        btn.setOnClickListener(this);
 
         final Intent intent = new Intent(this, Vistas.class);
 
@@ -70,6 +76,15 @@ public class Uniremington extends AppCompatActivity {
             }
         });
 
+
+    }
+
+    @Override
+    public void onClick(View v) {
+
+        if(v.getId() == R.id.buttonunireming){
+            super.onBackPressed();
+        }
 
     }
 }

@@ -4,16 +4,22 @@ import android.content.Intent;
 import android.support.annotation.IdRes;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.RadioGroup;
 
-public class Admisiones extends AppCompatActivity {
+public class Admisiones extends AppCompatActivity implements View.OnClickListener {
 
     RadioGroup radioGroup;
+    Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admisiones);
+
+        btn = (Button)findViewById(R.id.buttonadmisiones);
+        btn.setOnClickListener(this);
 
         final Intent intent = new Intent(this, Vistas.class);
 
@@ -57,5 +63,12 @@ public class Admisiones extends AppCompatActivity {
 
             }
         });
+    }
+
+    @Override
+    public void onClick(View v) {
+        if(v.getId() == R.id.buttonadmisiones){
+            super.onBackPressed();
+        }
     }
 }

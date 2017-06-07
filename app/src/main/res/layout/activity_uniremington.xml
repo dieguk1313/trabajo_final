@@ -7,12 +7,34 @@
     tools:context="com.example.aulasamigas.proyectofinal.Uniremington">
 
 
+    <Button
+        android:id="@+id/buttonunireming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="419dp"
+        android:text="Atras"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.53" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="373dp"
+        android:layout_height="163dp"
+        app:srcCompat="@drawable/principal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:backgroundTint="?attr/colorPrimary"
+        android:layout_marginTop="-13dp" />
+
     <RadioGroup
         android:id="@+id/uniremington"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="226dp"
-        app:layout_constraintHorizontal_bias="0.563"
+        android:layout_marginTop="179dp"
+        app:layout_constraintHorizontal_bias="0.558"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -89,17 +111,5 @@
             tools:text="¿Donde Estamos?" />
 
     </RadioGroup>
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="378dp"
-        android:layout_height="208dp"
-        app:srcCompat="@drawable/principal"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:backgroundTint="?attr/colorPrimary"
-        android:layout_marginTop="0dp"
-        app:layout_constraintHorizontal_bias="0.0" />
 
 </android.support.constraint.ConstraintLayout>

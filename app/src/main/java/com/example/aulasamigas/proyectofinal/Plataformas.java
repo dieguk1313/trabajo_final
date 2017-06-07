@@ -4,16 +4,22 @@ import android.content.Intent;
 import android.support.annotation.IdRes;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.RadioGroup;
 
-public class Plataformas extends AppCompatActivity {
+public class Plataformas extends AppCompatActivity implements View.OnClickListener {
 
     RadioGroup radioGroup;
+    Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_plataformas);
+
+        btn = (Button)findViewById(R.id.buttonplataformas);
+        btn.setOnClickListener(this);
 
         final Intent intent = new Intent(this, Vistas.class);
 
@@ -68,5 +74,14 @@ public class Plataformas extends AppCompatActivity {
 
             }
         });
+    }
+
+    @Override
+    public void onClick(View v) {
+
+        if(v.getId() == R.id.buttonplataformas){
+            super.onBackPressed();
+        }
+
     }
 }

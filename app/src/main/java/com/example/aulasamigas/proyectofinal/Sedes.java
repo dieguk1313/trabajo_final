@@ -4,16 +4,23 @@ import android.content.Intent;
 import android.support.annotation.IdRes;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.RadioGroup;
 
-public class Sedes extends AppCompatActivity {
+public class Sedes extends AppCompatActivity implements View.OnClickListener{
 
     RadioGroup radioGroup;
+    Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sedes);
+
+        btn = (Button)findViewById(R.id.buttonsedes);
+        btn.setOnClickListener(this);
+
 
         final Intent intent = new Intent(this, Vistas.class);
 
@@ -45,5 +52,14 @@ public class Sedes extends AppCompatActivity {
 
             }
         });
+    }
+
+    @Override
+    public void onClick(View v) {
+
+        if(v.getId() == R.id.buttonsedes){
+            super.onBackPressed();
+        }
+
     }
 }

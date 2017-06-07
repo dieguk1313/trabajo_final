@@ -8,22 +8,33 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="378dp"
-        android:layout_height="208dp"
+        android:layout_width="371dp"
+        android:layout_height="183dp"
         app:srcCompat="@drawable/principal"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:backgroundTint="?attr/colorPrimary"
         android:layout_marginTop="0dp"
-        app:layout_constraintHorizontal_bias="0.0" />
+        app:layout_constraintHorizontal_bias="0.555" />
+
+    <Button
+        android:id="@+id/buttonplataformas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="437dp"
+        android:text="Atras"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.547" />
 
     <RadioGroup
         android:id="@+id/plataformas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="224dp"
-        app:layout_constraintHorizontal_bias="0.574"
+        android:layout_marginTop="202dp"
+        app:layout_constraintHorizontal_bias="0.576"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
